@@ -1,0 +1,132 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ 
+ .nav{
+    background-color: rgb(204, 62, 62);
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px black ;
+ }
+ ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    
+    
+    
+
+}
+ul li{
+    padding: 5px;
+    color: white ;
+    font-size: 10px;
+    
+    
+    
+}
+.home{
+    color:black !important;
+    background-color: white;}
+    .first{
+        background-color: rgb(204, 62, 62);
+    }
+.first div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    
+}
+.first div h1, .p1{
+    color: white;
+    padding: 10px;
+}
+.first div button{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-size: 10px;
+    border: none;
+    margin:15px 0 ;
+}
+img{
+    width: 10px;
+}
+.img{
+    width: 80px !important;
+}
+.second{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.second .divd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.second .divd .dd p{
+    padding: 10px 0;}
+.second .divd .dd h3{
+    padding: 15px 0;}
+.third{
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(218, 218, 218);
+        
+}
+.third .divdd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 20px 0;
+}
+.third .divdd .ddd p{
+    padding: 10px 0;}
+.third.divdd .ddd h3{
+    padding: 15px 0;
+    }
+.third .divdd img{
+    margin: 0 25px;
+}
+.p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgb(82, 82, 82);
+    height : 100px;
+    color: white;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0;
+    flex-direction: column;
+    height: 50px;
+}
+footer p , a{
+    color: rgb(145, 143, 143);
+    font-size: 15px;
+}
+footer .link a{
+    text-decoration: none;
+}
+
+
+
+    
+
+
+
